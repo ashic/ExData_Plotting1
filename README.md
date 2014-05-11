@@ -1,4 +1,44 @@
-## Introduction
+##Introduction
+
+This code implements the requirements for the first course project of Coursera's Exploratory Data Analysis course, as part of the Data Science specialization. 
+
+The solution is a collection of R scripts:
+
+1. plot[1-4].R : Carries out the four plotting tasks.
+2. utility.R : Holds common code used by the the other plots. This includes for data import, cleansing, caching, etc.
+3. run_all.R : Simply calls out to plot[1-4].R in sequence.
+
+##Running instructions:
+1. Set the current working directory to the root folder of this project. 
+2. source('run_all.R')
+
+Alternatively, to carry out a particular plot, 
+1. Set the current working directory to the root folder of this project. 
+2. source('plotX.R') where X is 1, 2, 3, or 4.
+
+##Output:
+The code creates a folder called 'out' in the root of the project working directory. It outputs plot[X].png where [X] is 1, 2, 3, or 4. In case of run_all.R, all four are created. In the case of a specific plotX.R scirpt, only the corresponding plotX.png is created.
+
+For convenience, the four png files have been placed in the root of the project. The resultant plots are also shown below:
+
+
+### Plot 1
+
+![plot of plot1](plot1.png) 
+
+### Plot 2
+
+![plot of plot2](plot2.png) 
+
+### Plot 3
+
+![plot of plot3](plot3.png) 
+
+### Plot 4
+
+![plot of plot4](plot4.png) 
+
+## Assignment Introduction
 
 This assignment uses data from
 the <a href="http://archive.ics.uci.edu/ml/">UC Irvine Machine
