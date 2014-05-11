@@ -54,8 +54,7 @@ loadData <- function(){
         d <- read.csv.sql(targetFile, sql, sep=';'
                           ,colClasses=cols
                           ,header=T)
-        #d <- d[d$Date == '1/2/2007' | d$Date == '2/2/2007', ] 
-        
+            
         #we need to get the datetime in order to plot against it.
         #as such, we first create a vector of strings with the date and time,
         #and then convert them to datetimes.
